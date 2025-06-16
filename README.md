@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Wale</h2>
+<h2 align="left">Hi 👋! My name is Wale (pronounced Wally)</h2>
 
 ###
 
