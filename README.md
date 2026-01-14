@@ -67,9 +67,6 @@ Currently a Computer Science student at the University of New Brunswick, passion
   <a href="mailto:adebowale.ca@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail" />
   </a>
-  <a href="https://discord.com/users/" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord" />
-  </a>
 </div>
 
 <br clear="both">
