@@ -2,7 +2,12 @@
 <h4 align="left">Full-Stack Software Engineer • Java & Spring Boot • React / Next.js • Cloud & SaaS Builder</h4>
 
 <p align="left">
-I build scalable backend systems and full-stack SaaS products with a strong focus on security, performance, and real-time architecture.
+🔗 LinkedIn: <a href="https://www.linkedin.com/in/waally-7707xyz">waally-7707xyz</a> • 
+📺 YouTube: <a href="https://www.youtube.com/@tgc-707">@tgc-707</a>
+</p>
+
+<p align="left">
+I build scalable backend systems and full-stack SaaS products with a strong focus on security, performance, and real-time architecture.  
 Currently a Computer Science student at the University of New Brunswick, passionate about designing production-ready APIs, clean UIs, and cloud-native systems.
 </p>
 
@@ -53,10 +58,18 @@ Currently a Computer Science student at the University of New Brunswick, passion
 <img align="right" height="200" src="https://media1.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif" />
 
 <div align="left">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube" />
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />
-  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord" />
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail" />
+  <a href="https://www.youtube.com/@tgc-707" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube" />
+  </a>
+  <a href="https://www.linkedin.com/in/waally-7707xyz" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:adebowale.ca@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail" />
+  </a>
+  <a href="https://discord.com/users/" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord" />
+  </a>
 </div>
 
 <br clear="both">
