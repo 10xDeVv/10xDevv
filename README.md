@@ -1,79 +1,98 @@
-<h2 align="left">Hi 👋! My name is Wale (pronounced Wally)</h2>
-<h4 align="left">Full-Stack Software Engineer • Java & Spring Boot • React / Next.js • Cloud & SaaS Builder</h4>
+# Hi, I’m Wale 👋  
+Backend-Focused Software Engineer | Java & Spring Boot | Secure & Real-Time Systems
 
-<p align="left">
-🔗 LinkedIn: <a href="https://www.linkedin.com/in/waally-7707xyz">waally-7707xyz</a> • 
-📺 YouTube: <a href="https://www.youtube.com/@tgc-707">@tgc-707</a>
-</p>
+🔗 LinkedIn: https://www.linkedin.com/in/waally-7707xyz  
+📺 YouTube: https://www.youtube.com/@tgc-707  
 
-<p align="left">
-I build scalable backend systems and full-stack SaaS products with a strong focus on security, performance, and real-time architecture.  
-Currently a Computer Science student at the University of New Brunswick, passionate about designing production-ready APIs, clean UIs, and cloud-native systems.
-</p>
+---
 
-<h3 align="left">🚀 Flagship Projects</h3>
-<ul>
-  <li>
-    <b>LazyDrop</b> – Real-time file sharing SaaS  
-    <br/>
-    WebSockets, JWT + Refresh Tokens, Supabase Auth & Storage, Stripe Billing, Next.js, Spring Boot, Session Presence & Recovery
-  </li>
-  <br/>
-  <li>
-    <b>KingdomTrack</b> – Role-based assignment & fellowship management platform  
-    <br/>
-    Secure authentication, admin/member dashboards, REST APIs, PostgreSQL, React, Spring Boot
-  </li>
-</ul>
+## 👨🏽‍💻 About Me
 
-<h3 align="left">🛠 Tech Stack</h3>
+I’m a Computer Science student at the University of New Brunswick focused on building secure, production-oriented backend systems.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" height="30" />
-</div>
+I enjoy designing RESTful APIs, enforcing authentication and authorization flows, and thinking through edge cases in distributed systems. My work centers around reliability, clean architecture, and real-time service design.
 
-<h3 align="left">🔐 What I Specialize In</h3>
-<ul>
-  <li>Spring Boot APIs (JWT, OAuth2, Refresh Tokens, Role-Based Security)</li>
-  <li>Real-time systems (WebSockets, STOMP, Presence, Session Recovery)</li>
-  <li>Modern Frontend (React, Next.js, Tailwind, Framer Motion)</li>
-  <li>Cloud & SaaS Architecture (Supabase, Stripe, Docker, CI/CD)</li>
-  <li>End-to-end Product Engineering (Auth, Billing, Scaling, UX)</li>
-</ul>
+I’m particularly interested in backend infrastructure, secure transaction systems, and cloud-native architectures.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=10xDeVv&show_icons=true&include_all_commits=true&count_private=true&theme=dracula" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=10xDeVv&layout=compact&langs_count=6&theme=dracula" height="150" />
-</div>
+---
 
-<img align="right" height="200" src="https://media1.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif" />
+## 🚀 Selected Projects
 
-<div align="left">
-  <a href="https://www.youtube.com/@tgc-707" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube" />
-  </a>
-  <a href="https://www.linkedin.com/in/waally-7707xyz" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:adebowale.ca@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail" />
-  </a>
-</div>
+### LazyDrop — Real-Time File Sharing Platform  
+Spring Boot • PostgreSQL • WebSockets (STOMP) • Supabase • Stripe • Docker
 
-<br clear="both">
+- Designed secure backend services in Java Spring Boot for session-based file sharing.
+- Implemented JWT authentication and role-based access control.
+- Integrated Stripe billing with verified webhooks and server-side validation.
+- Built idempotent file confirmation workflows to prevent duplicate processing.
+- Enforced plan limits and session constraints server-side.
+- Containerized backend with Docker and deployed via CI/CD.
 
-<img src="https://raw.githubusercontent.com/10xDeVv/10xDeVv/output/snake.svg" alt="Snake animation" />
+Focus areas: authentication, idempotency, session management, real-time events.
 
-<p align="center">
-⚡ Building production-grade systems, one commit at a time.  
-🎯 Aspiring Backend / Cloud Engineer • Startup Builder • Real-Time Systems
-</p>
+---
+
+### KingdomTrack — Role-Based Assignment Platform  
+Spring Boot • PostgreSQL • JWT (Access/Refresh Tokens) • Docker
+
+- Developed secure REST APIs supporting 100+ users.
+- Implemented access/refresh token authentication with role separation.
+- Structured backend using controller → service → repository layering.
+- Designed permission-aware endpoints with defensive validation.
+
+Focus areas: secure session handling, backend modularization, API design.
+
+---
+
+## 🛠 Technical Focus
+
+### Backend & Architecture
+- Java (Spring Boot)
+- RESTful API Design
+- Controller / Service / Repository layering
+- Role-Based Access Control
+- Microservices principles
+- WebSockets (STOMP)
+
+### Security & Reliability
+- JWT & OAuth2 resource validation
+- Refresh token flows
+- Idempotent endpoint design
+- Server-side plan enforcement
+- Structured exception handling
+- Defensive input validation
+
+### Testing & Quality
+- JUnit (service-level testing)
+- Mockito (mocking dependencies)
+- Controller testing with MockMvc
+- CI-based automated test execution
+
+### DevOps & Data
+- Docker
+- GitHub Actions (CI/CD)
+- PostgreSQL
+- Database normalization & indexing
+- Environment-based configuration
+
+---
+
+## 🧠 Engineering Interests
+
+- Secure-by-design backend systems  
+- Observability & structured logging  
+- Real-time communication patterns  
+- Distributed system edge cases  
+- Financial & transaction-based system reliability  
+
+---
+
+## 🎯 Current Direction
+
+Actively deepening my expertise in backend engineering, cloud infrastructure, and secure transaction systems.
+
+Long-term goal: build and operate high-trust, high-availability backend platforms at scale.
+
+---
+
+📫 Contact: adebowale.ca@gmail.com
