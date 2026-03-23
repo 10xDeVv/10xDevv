@@ -13,6 +13,7 @@ I'm a Computer Science student at the University of New Brunswick focused on bui
 I enjoy designing RESTful APIs, enforcing authentication and authorization flows, and thinking through edge cases in distributed systems. My work centers around reliability, clean architecture, and real-time service design.
 
 I'm particularly interested in backend infrastructure, secure transaction systems, and cloud-native architectures. I also actively maintain and open-source the software I build.
+Building production-grade backend infrastructure for real-time systems.
 
 ---
 
