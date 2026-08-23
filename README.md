@@ -1,103 +1,78 @@
 # Hi, I'm Wale 👋
-Backend-Focused Software Engineer | Java & Spring Boot | Secure, Real-Time, and Data-Driven Systems
 
-🔗 LinkedIn: https://www.linkedin.com/in/waally-7707xyz  
-📺 YouTube: https://www.youtube.com/@tgc-707
+**Backend & Platform Engineer** building secure, event-driven, and data-intensive systems with Java, Go, Rust, and TypeScript.
 
----
+[LinkedIn](https://www.linkedin.com/in/waally-7707xyz) · [YouTube](https://www.youtube.com/@tgc-707) · [Email](mailto:adebowale.ca@gmail.com)
 
-## 👨🏽‍💻 About Me
+## About me
 
-I'm a Computer Science student at the University of New Brunswick focused on building production-grade backend systems that are secure, reliable, and observable.
+I'm a Computer Science student at the University of New Brunswick, Co-Founder & Engineering Lead at Hack Atlantic, and Software Developer, Database Systems at Steel Plus Network.
 
-I enjoy designing APIs, enforcing authentication and authorization flows, and translating product ideas into software that can scale in the real world.
+I like working where correctness matters: authorization boundaries, transactional workflows, asynchronous processing, geospatial data, failure recovery, and release engineering. My current work spans a Go/PostgreSQL event-operations platform, financial data systems, scenic routing infrastructure, and deterministic traffic modeling.
 
-Lately, I've been shipping across multiple products: real-time infrastructure, privacy-first AI workflows, and developer-facing web experiences.
+## Current work
 
----
+### Hack Atlantic — Application & Event Operations Platform
 
-## 🚀 Projects
+Next.js · TypeScript · Go · PostgreSQL · Terraform · Docker
 
-### LazyDrop — Real-Time File Sharing Platform (Open Source)
-**Live:** [lazydrop.app](https://lazydrop.app) · **Source:** [GitHub](https://github.com/10xDeVv/LazyDrop)
+- Leading engineering on a platform that carries participants from versioned applications and private reviews through decisions, secure QR passes, and event-day checkpoint redemptions.
+- Implemented concurrency-safe checkpoint redemption with PostgreSQL row locks and idempotency keys; the team-built release path adds staged validation, immutable artifacts, observability, and backup/restore controls.
 
-Java 21 · Spring Boot · PostgreSQL · WebSockets · Stripe · Docker · GitHub Actions
+### Steel Plus Network — Internal Financial Data Systems
 
-- Architected a modular monolith backend for session-based, real-time file sharing.
-- Implemented signed URL upload/download workflows with CDN-backed delivery.
-- Built idempotent payment webhook handling with deduplication and retry-safe processing.
-- Enforced plan limits server-side so constraints cannot be bypassed via API clients.
+SQL · Microsoft Access · VBA
 
----
+- Returned after a 2025 internship to build a larger rebate-management system with normalized supplier, member, contract, purchase, and exchange-rate data.
+- Translating undocumented business rules into auditable internal workflows while keeping unresolved financial assumptions explicit.
 
-## 🆕 Recent Work
+## Selected engineering projects
 
-### Wayward — Scenic Route Generation Platform
-**Source:** [GitHub](https://github.com/10xDeVv/Wayward)
+### [Breakpoint](https://github.com/10xDeVv/Breakpoint) — Multi-City Road-Disruption Modeling
 
-Next.js · Java/Spring Boot · Kafka · PostgreSQL/PostGIS · Redis · OSRM · Docker Compose
+Rust · Python · React · TypeScript · Mapbox GL · deck.gl
 
-- Built a revisioned route-job pipeline that supports async processing, primary-result delivery, and resilient status updates.
-- Combined spatial scoring (H3 + PostGIS) with route engine outputs to rank scenic driving loops by vibe and drive quality.
-- Structured the system into focused services (`route-api`, `route-worker`, `notification-service`) with production deployment discipline.
+- Built a five-city modeled beta with a deterministic Rust traffic-assignment engine, reproducible city packages, and an interactive road-disruption analysis UI.
+- Added validation for schema and graph invariants, solver convergence, and flow conservation, plus a containerized Azure deployment path with metrics, alerts, backup/restore, infrastructure as code, and OIDC-based CI/CD.
 
-### WhereDidIApply — Privacy-First AI Job Tracker
-**Live:** [wheredidiapply.tech](https://wheredidiapply.tech) · **Source:** [GitHub](https://github.com/10xDeVv/WhereDidIApply)
+### [Wayward](https://github.com/10xDeVv/Wayward) — Scenic Route Generation
 
-Next.js 15 · React 19 · Java 21/Spring Boot WebFlux · Gemini · Docker · Cloud Run
+Next.js · Java/Spring Boot · Kafka · PostgreSQL/PostGIS · Redis · H3 · OSRM
 
-- Built a hybrid rules engine + LLM pipeline to classify job-application emails into interview, rejection, offer, and action-required states.
-- Designed around strict privacy guarantees: Gmail tokens stay client-side and server-side processing is stateless/in-memory.
-- Added reliability controls (rate limits, quotas, circuit breaker) for predictable behavior under API uncertainty.
+- Built an asynchronous route pipeline with transactional outbox dispatch, Kafka retries, lease-fenced workers, revisioned job states, and WebSocket progress with polling fallback.
+- Reduced a 1,500-tile real-Redis lookup benchmark from 3,213 ms to 90 ms using batched `MGET`, bulk PostGIS miss queries, pipelined cache fills, and a local LRU.
 
-### Portfolio — Personal Engineering Portfolio
-**Source:** [GitHub](https://github.com/10xDeVv/Portfolio)
+### [LazyDrop](https://github.com/10xDeVv/LazyDrop) — Real-Time File Sharing
 
-Vanilla JS (ES Modules) · Custom build scripts · CSS system design · Vercel deploy
+**Live:** [lazydrop.app](https://lazydrop.app)
 
-- Rebuilt portfolio UX as a lightweight static web app focused on performance and clear project storytelling.
-- Structured content and component layers to keep iteration fast while preserving visual consistency.
-- Used a minimal toolchain to optimize for maintainability and deployment simplicity.
+Next.js · Java/Spring Boot · PostgreSQL · WebSockets · S3-Compatible Storage · Stripe
 
----
+- Implemented two-phase signed uploads so object storage handles file bytes while the API retains authorization, validation, and metadata control.
+- Prevented duplicate Stripe entitlement updates with signature validation, server-side plan enforcement, and an idempotent leased-retry ledger.
 
-## 🛠 Technical Focus
+### [WhereDidIApply](https://github.com/10xDeVv/WhereDidIApply) — Privacy-First Job Tracking
 
-### Backend & Platform Engineering
-- Java 21 (Spring Boot)
-- RESTful API design
-- Async workflows and event-driven processing
-- Modular architecture and service boundaries
-- WebSockets and real-time delivery
+**Live:** [wheredidiapply.tech](https://wheredidiapply.tech)
 
-### Security & Reliability
-- JWT/OAuth2 patterns
-- Role-based access control
-- Idempotent processing and defensive validation
-- Rate limiting, quotas, and circuit breakers
-- Operationally safe deploy/rollback workflows
+Next.js · TypeScript · Java/Spring Boot · Gmail API · Gemini · Cloud Run
 
-### Data & Infrastructure
-- PostgreSQL + PostGIS
-- Redis caching strategies
-- Containerized environments (Docker / Compose)
-- CI/CD with GitHub Actions
-- Environment-based configuration and observability practices
+- Kept Gmail OAuth tokens client-side and avoided server-side email persistence while using deterministic parsing before bounded Gemini fallback.
+- Added configured quotas, concurrency limits, retries, and circuit breaking around email scanning and classification.
 
----
+## Toolbox
 
-## 🎯 Current Direction
+- **Languages:** Java, Go, Rust, TypeScript, Python, SQL
+- **Backend:** Spring Boot, REST APIs, WebSockets, Kafka
+- **Data:** PostgreSQL, PostGIS, Redis, H3
+- **Infrastructure:** Docker, Terraform, GitHub Actions, observability, backup and rollback workflows
+- **Frontend:** Next.js, React, React Native, Mapbox GL, deck.gl
 
-I'm currently focused on advancing backend system design through three parallel tracks:
+## What I'm exploring next
 
-- **Real-time and geospatial infrastructure** (Wayward)
-- **Privacy-first AI product engineering** (WhereDidIApply)
-- **Clear technical storytelling and developer branding** (Portfolio)
+- Reliable distributed workflows and transaction design
+- Geospatial and data-intensive systems
+- Systems performance, validation, and observability
+- Deployment paths that are measurable, reversible, and boring in the best way
 
-In parallel, I continue maintaining and evolving [LazyDrop](https://github.com/10xDeVv/LazyDrop) as an open-source backend platform.
-
-Long-term goal: build and operate high-trust, high-availability systems that solve practical problems at scale.
-
----
-
-📫 Contact: adebowale.ca@gmail.com
+📫 **Contact:** [adebowale.ca@gmail.com](mailto:adebowale.ca@gmail.com)
