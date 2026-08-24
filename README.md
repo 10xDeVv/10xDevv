@@ -1,35 +1,64 @@
-# Hi, I'm Wale 👋
+# Hey, I'm Wale 👋
 
-**Backend & Platform Engineer** building secure, event-driven, and data-intensive systems with Java, Go, Rust, and TypeScript.
+I'm a Computer Science student at the University of New Brunswick who likes building software that has a little more going on under the hood.
+
+Most of my work lives somewhere around **backend systems, data, infrastructure, and full-stack products**. I enjoy problems involving concurrency, APIs, geospatial data, caching, reliability, and figuring out how to make complicated systems behave predictably.
+
+Right now, I'm also helping lead engineering for **Hack Atlantic**, a student-led hackathon, and working on database systems at **Steel Plus Network**.
 
 [LinkedIn](https://www.linkedin.com/in/waally-7707xyz) · [YouTube](https://www.youtube.com/@tgc-707) · [Email](mailto:adebowale.ca@gmail.com)
 
-I'm a Computer Science student at the University of New Brunswick, Co-Founder & Engineering Lead at Hack Atlantic, and Software Developer, Database Systems at Steel Plus Network.
+## A few things I've built
 
-I build systems where correctness matters: authorization boundaries, transactions, asynchronous processing, spatial data, failure recovery, and reliable delivery.
+### 🚦 [Breakpoint](https://github.com/10xDeVv/Breakpoint)
 
-## Selected work
+**What happens to a city when an important road suddenly closes?**
 
-### [Breakpoint](https://github.com/10xDeVv/Breakpoint) — Road-Disruption Modeling
+Breakpoint is a five-city transportation-disruption platform that lets you close roads or draw affected areas, reruns modeled traffic, and shows how movement and access to essential services change.
 
-`Rust · Python · React · TypeScript · Mapbox GL · deck.gl`
+Behind the scenes, it includes a deterministic traffic-assignment engine in Rust, a React/TypeScript geospatial interface, asynchronous jobs, persistent results, caching, validation, and Azure deployment infrastructure.
 
-Five-city modeled beta with a deterministic Rust traffic-assignment engine, reproducible city packages, and validation for graph invariants, solver convergence, and flow conservation.
+`Rust · Python · React · TypeScript · Mapbox GL · Docker · Azure`
 
-### [Wayward](https://github.com/10xDeVv/Wayward) — Scenic Route Generation
+---
 
-`Java/Spring Boot · Kafka · PostgreSQL/PostGIS · Redis · H3 · OSRM · Next.js`
+### 🛣️ [Wayward](https://github.com/10xDeVv/Wayward)
 
-Scenic-loop platform with recoverable asynchronous jobs and revisioned progress delivery. Reduced a 1,500-tile real-Redis lookup benchmark from 3,213 ms to 90 ms using batched reads, bulk PostGIS queries, pipelined cache fills, and a local LRU.
+**A route planner for when the drive itself is the destination.**
 
-### [LazyDrop](https://github.com/10xDeVv/LazyDrop) — Real-Time File Sharing
+Wayward generates scenic driving loops by combining road networks with environmental signals such as water, terrain, land cover, and other geospatial data.
 
-`Java/Spring Boot · PostgreSQL · WebSockets · S3-Compatible Storage · Stripe · Next.js`
+The backend uses Spring Boot, Kafka, PostGIS, Redis, H3, and OSRM to score and generate routes asynchronously. One optimization reduced a 1,500-tile Redis lookup benchmark from **3.2 seconds to 90 ms**.
 
-Temporary file-sharing platform with two-phase signed storage transfers, live session updates, server-enforced plans, and idempotent Stripe webhook processing. [Try it live](https://lazydrop.app).
+`Java · Spring Boot · Kafka · PostgreSQL/PostGIS · Redis · H3 · OSRM · Next.js`
 
-## Toolbox
+---
 
-**Languages:** Java, Go, Rust, TypeScript, Python, SQL  
-**Backend & data:** Spring Boot, REST APIs, WebSockets, Kafka, PostgreSQL, PostGIS, Redis  
-**Infrastructure:** Docker, Terraform, GitHub Actions, observability, backup and rollback workflows
+### 📦 [LazyDrop](https://github.com/10xDeVv/LazyDrop)
+
+**Temporary file sharing without making everyone create an account first.**
+
+LazyDrop lets people create temporary rooms, share files through a QR code or short link, and see transfer state in real time.
+
+Files upload directly to object storage through signed URLs while the backend handles authorization, metadata, session state, and billing. It also supports guest/authenticated users, WebSockets, expiring rooms, and Stripe subscriptions.
+
+[Try it live](https://lazydrop.app)
+
+`Java · Spring Boot · PostgreSQL · WebSockets · S3-Compatible Storage · Stripe · Next.js`
+
+## What I like working with
+
+**Languages**
+Java · Python · Go · Rust · TypeScript · SQL
+
+**Backend & Data**
+Spring Boot · REST APIs · WebSockets · Kafka · PostgreSQL · PostGIS · Redis
+
+**Infrastructure**
+Docker · Terraform · GitHub Actions · CI/CD · Cloud deployment · Monitoring
+
+## Outside of code
+
+I'm also a self-taught gospel pianist, and I'm usually either learning something new, building something I probably underestimated the scope of, or both.
+
+If you're working on something interesting, feel free to reach out.
